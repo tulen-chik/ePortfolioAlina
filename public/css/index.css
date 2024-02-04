@@ -1,0 +1,19 @@
+body {
+  margin: 0% auto;
+  background-color: rgb(24, 24, 24);
+}
+
+.main {
+  height: 100%;
+  position: relative;
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+  background-color: #f9f9fd;
+}
+
+::-webkit-scrollbar-thumb {
+  width: 15px;
+  background-color: rgb(24, 24, 24);
+}

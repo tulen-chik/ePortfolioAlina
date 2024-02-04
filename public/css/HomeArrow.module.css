@@ -1,0 +1,12 @@
+.home_div {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    left: 90%;
+    top: 80%;
+}
+
+.home_div > img {
+    width: 50px;
+    height: 50px;
+}

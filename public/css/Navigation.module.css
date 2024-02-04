@@ -1,0 +1,15 @@
+.nav_element {
+  transition: font-size .5s ease;
+  text-decoration: none;
+  color: white;
+  font-family: "Evolventa", sans-serif;
+  font-size: 4rem;
+}
+
+.nav_element:hover {
+  font-size: 5rem;
+}
+
+.nav_div {
+  height: 6rem;
+}

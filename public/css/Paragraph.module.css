@@ -1,0 +1,18 @@
+.paragraph {
+  width: 60%;
+  font-size: 32px;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 60px;
+}
+.header {
+  width: 80%;
+  font-size: 48px;
+}
+.inner_text {
+  width: 80%;
+  font-size: 32px;
+  margin-bottom: 10%;
+  margin-top: 10%;
+}
