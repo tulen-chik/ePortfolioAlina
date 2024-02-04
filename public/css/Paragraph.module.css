@@ -9,6 +9,7 @@
 .header {
   width: 80%;
   font-size: 48px;
+  margin-bottom: 20px;
 }
 .inner_text {
   width: 80%;
@@ -19,7 +20,7 @@
 @media (max-width: 1000px) {
   .paragraph {
     font-size: 20px;
-    width: 80%;
+    width: 70%;
   }
   .header {
     font-size: 38px;

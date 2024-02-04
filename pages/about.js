@@ -66,7 +66,7 @@ const about = () => {
         }
         @media (max-width: 1000px) {
           header {
-            font-size: 54px;
+            font-size: 45px;
           }
         }
       `}</style>
