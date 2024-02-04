@@ -57,12 +57,17 @@ const about = () => {
         header {
           width: 100%;
           text-align: center;
-          font-size: 4rem;
+          font-size: 64px;
           color: white;
           font-family: "Evolventa", sans-serif;
         }
         .paragraphs > div {
           margin-bottom: 50px;
+        }
+        @media (max-width: 1000px) {
+          header {
+            font-size: 54px;
+          }
         }
       `}</style>
       <HomeArrow />

@@ -3,7 +3,7 @@
   text-decoration: none;
   color: white;
   font-family: "Evolventa", sans-serif;
-  font-size: 4rem;
+  font-size: 64px;
 }
 
 .nav_element:hover {
@@ -12,4 +12,10 @@
 
 .nav_div {
   height: 6rem;
+}
+
+@media (max-width: 1000px) {
+  .nav_element {
+    font-size: 54px;
+  }
 }
