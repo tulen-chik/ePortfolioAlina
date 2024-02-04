@@ -22,5 +22,9 @@
   }
   .header {
     font-size: 38px;
+    width: 90%;
+  }
+  .inner_text {
+    width: 90%;
   }
 }
