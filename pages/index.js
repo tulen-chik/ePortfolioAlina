@@ -49,7 +49,7 @@ const App = () => {
           .navigation {
             display: flex;
             flex-direction: column;
-            gap: 99px;
+            gap: 49px;
             justify-content: center;
             text-align: center;
           }
