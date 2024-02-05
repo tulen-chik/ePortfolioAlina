@@ -29,7 +29,10 @@ const Que = (props) => {
           <i>{props.children}</i>
         </div>
       </div>
-      <div className={styles.footer}>{props.footer}</div>
+      { props.footer 
+      ? <div className={styles.footer}>{props.footer}</div>
+      : <div className={styles.footer} style={{color: "rgb(24, 24, 24)"}}>{props.footer}</div>
+      }
     </div>
   );
 };

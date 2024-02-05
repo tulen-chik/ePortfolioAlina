@@ -34,7 +34,7 @@ const personal_writing = () => {
           decision
         </Paragraph>
 
-        <ImageContainer href={"/images/Belarus.jpg"} idClass={"apsdsa"}/>
+        <ImageContainer href={"/images/Belarus.jpg"} idClass={"apsdsa"} />
 
         <Paragraph idClass={"b"} header={"Belarus"}>
           On the one hand, of course, I would like to tell you about my
@@ -52,7 +52,7 @@ const personal_writing = () => {
           was not an option.
         </Paragraph>
 
-        <ImageContainer href={"/images/Lithuania.jpg"} idClass={"rtetcm"}/>
+        <ImageContainer href={"/images/Lithuania.jpg"} idClass={"rtetcm"} />
 
         <Paragraph idClass={"v"} header={"Lithuania"}>
           on the other hand, Lithuania was waiting for me, in which everything
@@ -64,13 +64,11 @@ const personal_writing = () => {
           find beauty in these parts
         </Paragraph>
 
-        <Que  idClass={"dlk"} header={"reflection"} footer={"asd"}>on the other hand, Lithuania was waiting for me, in which everything
-          was the opposite, I would have been separated from all my friends, but
-          I would have achieved the dream of my childhood, so I made my choice
-          in favor of Lithuania. And I believe that I did not regret my choice,
-          because despite all the difficulties and loneliness that I experienced
-          on my way, I was still able to meet wonderful people in Lithuania and
-          find beauty in these parts</Que>
+        <Que idClass={"dlk"} header={"reflection"}>
+          For me, this essay had a very great personal significance, as I was
+          able to group all the decisions that I had made and looked at them in
+          a new way. And I can safely say that it helped me set new goals.
+        </Que>
       </div>
       <style jsx>{`
         header {

@@ -16,8 +16,8 @@ const App = () => {
       href: "/disciplinary_writing",
       img: "/images/logo4.jpg",
     },
-    { id: "speaking", text: <div style={{display: "flex", justifyContent: "center"}}><div style={{color: "#755ab2"}}>s</div><div style={{color: "#ffffff"}}>peaking</div></div>, href: "/speaking", img: "/images/logo5.jpg", },
-    { id: "reflection", text: <div style={{display: "flex", justifyContent: "center"}}><div style={{color: "#755ab2"}}>r</div><div style={{color: "#ffffff"}}>eflection</div></div>, href: "/reflection", img: "/images/logo6.jpg", },
+    { id: "speaking", text: <div style={{display: "flex", justifyContent: "center"}}><div style={{color: "#b2a0dc"}}>s</div><div style={{color: "#ffffff"}}>peaking</div></div>, href: "/speaking", img: "/images/logo5.jpg", },
+    { id: "reflection", text: <div style={{display: "flex", justifyContent: "center"}}><div style={{color: "#b2a0dc"}}>r</div><div style={{color: "#ffffff"}}>eflection</div></div>, href: "/reflection", img: "/images/logo6.jpg", },
   ];
 
   return (
