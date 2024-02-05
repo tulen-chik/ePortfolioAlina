@@ -99,6 +99,11 @@ const speaking = () => {
             font-size: 45px;
           }
         }
+        @media (max-width: 450px) {
+          header {
+            font-size: 35px;
+          }
+        }
       `}</style>
       <HomeArrow />
     </main>
