@@ -1,9 +1,8 @@
 import Navigation from "../components/Navigation";
 
 const App = () => {
-
   const nav = [
-    { id: "about", text: "about", href: "/about" },
+    { id: "about", text: "about", href: "/about", img: "/images/logo1.jpg" },
     { id: "goals", text: "goals", href: "/goals" },
     {
       id: "personal_writing",
@@ -29,7 +28,17 @@ const App = () => {
       <div className="navigation">
         {nav.map((nav_elem, index) => {
           return (
-            <Navigation key={index} text={nav_elem.text} href={nav_elem.href} idName={nav_elem.id} />
+            <div>
+              <div className="bg">
+                <img src={nav_elem.img} />
+              </div>
+              <Navigation
+                key={index}
+                text={nav_elem.text}
+                href={nav_elem.href}
+                idName={nav_elem.id}
+              />
+            </div>
           );
         })}
       </div>
@@ -41,7 +50,18 @@ const App = () => {
             gap: 120px;
             justify-content: center;
             text-align: center;
-            padding: 10%;
+          }
+          .bg {
+            position: absolute;
+            width: 100%;
+            height: 150px;
+          }
+          .bg > img {
+            object-fit: cover;
+            object-position: center;
+            width: 100%;
+            height: 100%;
+            z-index: -100;
           }
         `}
       </style>
