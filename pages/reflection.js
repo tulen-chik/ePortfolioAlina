@@ -80,6 +80,4 @@ const reflection = () => {
   );
 };
 
-export default about;
-
 export default reflection;
