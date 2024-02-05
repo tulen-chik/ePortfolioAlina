@@ -1,9 +1,9 @@
+import styles from "../public/css/Que.module.css";
 import { useLayoutEffect } from "react";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/dist/ScrollTrigger";
-import styles from "../public/css/Paragraph.module.css";
 
-export default (props) => {
+const Que = (props) => {
   gsap.registerPlugin(ScrollTrigger);
 
   useLayoutEffect(() => {
@@ -22,12 +22,15 @@ export default (props) => {
 
   return (
     <div className={props.idClass}>
-      <div className={styles.paragraph}>
-        <div className={styles.header}>
-          <strong>{props.header}</strong>
+      <div className={styles.heder}>{props.header}</div>
+      <div className={styles.main}>
+        <hr />
+        <div className={styles.text}>
+          <i>{props.children}</i>
         </div>
-        <div className={styles.innner_text}>{props.children}</div>
       </div>
     </div>
   );
 };
+
+export default Que;

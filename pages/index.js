@@ -2,7 +2,7 @@ import Navigation from "../components/Navigation";
 
 const App = () => {
   const nav = [
-    { id: "about", text: <div style={{display: "flex", justifyContent: "center"}}><div style={{color: "#85bfee"}}>a</div><div style={{color: "rgb(24, 24, 24)"}}>bout</div></div>, href: "/about", img: "/images/logo1.jpg" },
+    { id: "about", text: <div style={{display: "flex", justifyContent: "center"}}><div style={{color: "#85bfee"}}>a</div><div style={{color: "#ffffff"}}>bout</div></div>, href: "/about", img: "/images/logo1.jpg" },
     { id: "goals", text: "goals", href: "/goals", img: "/images/logo2.jpg" },
     {
       id: "personal_writing",

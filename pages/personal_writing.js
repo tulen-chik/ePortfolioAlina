@@ -3,7 +3,7 @@ import gsap from "gsap";
 import Paragraph from "../components/Paragraph";
 import HomeArrow from "../components/HomeArrow";
 import ImageContainer from "../components/ImageContainer";
-
+import Que from "../components/Que";
 
 const personal_writing = () => {
   useLayoutEffect(() => {
@@ -63,6 +63,14 @@ const personal_writing = () => {
           on my way, I was still able to meet wonderful people in Lithuania and
           find beauty in these parts
         </Paragraph>
+
+        <Que  idClass={"dlk"} header={"reflection"}>on the other hand, Lithuania was waiting for me, in which everything
+          was the opposite, I would have been separated from all my friends, but
+          I would have achieved the dream of my childhood, so I made my choice
+          in favor of Lithuania. And I believe that I did not regret my choice,
+          because despite all the difficulties and loneliness that I experienced
+          on my way, I was still able to meet wonderful people in Lithuania and
+          find beauty in these parts</Que>
       </div>
       <style jsx>{`
         header {
