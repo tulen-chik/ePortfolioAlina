@@ -32,12 +32,14 @@ const App = () => {
               <div className="bg">
                 <img src={nav_elem.img} />
               </div>
-              <Navigation
-                key={index}
-                text={nav_elem.text}
-                href={nav_elem.href}
-                idName={nav_elem.id}
-              />
+              <div className="text">
+                <Navigation
+                  key={index}
+                  text={nav_elem.text}
+                  href={nav_elem.href}
+                  idName={nav_elem.id}
+                />
+              </div>
             </div>
           );
         })}
@@ -47,14 +49,15 @@ const App = () => {
           .navigation {
             display: flex;
             flex-direction: column;
-            gap: 120px;
+            gap: 99px;
             justify-content: center;
             text-align: center;
           }
           .bg {
             position: absolute;
             width: 100%;
-            height: 150px;
+            height: 215px;
+            z-index: -100;
           }
           .bg > img {
             object-fit: cover;
@@ -62,6 +65,9 @@ const App = () => {
             width: 100%;
             height: 100%;
             z-index: -100;
+          }
+          .text {
+            padding-top: 70px;
           }
         `}
       </style>
