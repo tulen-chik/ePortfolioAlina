@@ -2,6 +2,8 @@ import { useLayoutEffect } from "react";
 import gsap from "gsap";
 import Paragraph from "../components/Paragraph";
 import HomeArrow from "../components/HomeArrow";
+import ImageContainer from "../components/ImageContainer";
+
 
 const personal_writing = () => {
   useLayoutEffect(() => {
@@ -32,36 +34,34 @@ const personal_writing = () => {
           decision
         </Paragraph>
 
+        <ImageContainer href={"/images/Belarus.jpg"} idClass={"apsdsa"}/>
+
         <Paragraph idClass={"b"} header={"Belarus"}>
-          On the one hand, of course, I would like to tell you about my homeland.
-          Belarus has always fascinated me with its people, who are kind and as
-          pleasant to communicate with as possible. I would gladly choose to
-          continue my studies here, it would be much easier from the monetary
-          and moral side, but this is where the significant advantages end.
-          Since my dream has always been to become an actress, there would be no
-          future for me in Belarus, due to the lack of educational institutions
-          and proper industry. But I could have given up my dream, acted like
-          hundreds and thousands of my peers, joined some boring banker or
-          accountant, yes, these professions would have given me a stable income
-          and confidence in the future. But this is not about me, I crave
-          adventure, I want more, so changing my profession to another was not
-          an option.
+          On the one hand, of course, I would like to tell you about my
+          homeland. Belarus has always fascinated me with its people, who are
+          kind and as pleasant to communicate with as possible. I would gladly
+          choose to continue my studies here, it would be much easier from the
+          monetary and moral side, but this is where the significant advantages
+          end. Since my dream has always been to become an actress, there would
+          be no future for me in Belarus, due to the lack of educational
+          institutions and proper industry. But I could have given up my dream,
+          acted like hundreds and thousands of my peers, joined some boring
+          banker or accountant, yes, these professions would have given me a
+          stable income and confidence in the future. But this is not about me,
+          I crave adventure, I want more, so changing my profession to another
+          was not an option.
         </Paragraph>
 
+        <ImageContainer href={"/images/Lithuania.jpg"} idClass={"rtetcm"}/>
+
         <Paragraph idClass={"v"} header={"Lithuania"}>
-          Firstly, of course, I would like to tell you about my homeland.
-          Belarus has always fascinated me with its people, who are kind and as
-          pleasant to communicate with as possible. I would gladly choose to
-          continue my studies here, it would be much easier from the monetary
-          and moral side, but this is where the significant advantages end.
-          Since my dream has always been to become an actress, there would be no
-          future for me in Belarus, due to the lack of educational institutions
-          and proper industry. But I could have given up my dream, acted like
-          hundreds and thousands of my peers, joined some boring banker or
-          accountant, yes, these professions would have given me a stable income
-          and confidence in the future. But this is not about me, I crave
-          adventure, I want more, so changing my profession to another was not
-          an option.
+          on the other hand, Lithuania was waiting for me, in which everything
+          was the opposite, I would have been separated from all my friends, but
+          I would have achieved the dream of my childhood, so I made my choice
+          in favor of Lithuania. And I believe that I did not regret my choice,
+          because despite all the difficulties and loneliness that I experienced
+          on my way, I was still able to meet wonderful people in Lithuania and
+          find beauty in these parts
         </Paragraph>
       </div>
       <style jsx>{`
