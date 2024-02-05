@@ -19,7 +19,7 @@ const personal_writing = () => {
       ></link>
 
       <header>
-        <h1>goals</h1>
+        <h1>personal writing</h1>
       </header>
       <div className="personal writing">
         <Paragraph idClass={"a"}>
@@ -33,7 +33,7 @@ const personal_writing = () => {
         </Paragraph>
 
         <Paragraph idClass={"b"} header={"Belarus"}>
-          Firstly, of course, I would like to tell you about my homeland.
+          On the one hand, of course, I would like to tell you about my homeland.
           Belarus has always fascinated me with its people, who are kind and as
           pleasant to communicate with as possible. I would gladly choose to
           continue my studies here, it would be much easier from the monetary
@@ -48,7 +48,7 @@ const personal_writing = () => {
           an option.
         </Paragraph>
 
-        <Paragraph idClass={"b"} header={"Lithuania"}>
+        <Paragraph idClass={"v"} header={"Lithuania"}>
           Firstly, of course, I would like to tell you about my homeland.
           Belarus has always fascinated me with its people, who are kind and as
           pleasant to communicate with as possible. I would gladly choose to
@@ -84,6 +84,16 @@ const personal_writing = () => {
           content: "✰";
           font-size: 25px;
           margin-right: 15px;
+        }
+        @media (max-width: 1000px) {
+          header {
+            font-size: 45px;
+          }
+        }
+        @media (max-width: 450px) {
+          header {
+            font-size: 35px;
+          }
         }
       `}</style>
       <HomeArrow />

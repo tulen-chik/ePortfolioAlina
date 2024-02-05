@@ -96,6 +96,16 @@ const goals = () => {
           font-size: 25px;
           margin-right: 15px;
         }
+        @media (max-width: 1000px) {
+          header {
+            font-size: 45px;
+          }
+        }
+        @media (max-width: 450px) {
+          header {
+            font-size: 35px;
+          }
+        }
       `}</style>
       <HomeArrow />
     </main>
