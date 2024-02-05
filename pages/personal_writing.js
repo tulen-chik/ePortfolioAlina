@@ -64,7 +64,7 @@ const personal_writing = () => {
           find beauty in these parts
         </Paragraph>
 
-        <Que  idClass={"dlk"} header={"reflection"}>on the other hand, Lithuania was waiting for me, in which everything
+        <Que  idClass={"dlk"} header={"reflection"} footer={"asd"}>on the other hand, Lithuania was waiting for me, in which everything
           was the opposite, I would have been separated from all my friends, but
           I would have achieved the dream of my childhood, so I made my choice
           in favor of Lithuania. And I believe that I did not regret my choice,

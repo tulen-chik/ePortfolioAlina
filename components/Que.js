@@ -22,13 +22,14 @@ const Que = (props) => {
 
   return (
     <div className={props.idClass}>
-      <div className={styles.heder}>{props.header}</div>
+      <div className={styles.header}>{props.header}</div>
       <div className={styles.main}>
         <hr />
         <div className={styles.text}>
           <i>{props.children}</i>
         </div>
       </div>
+      <div className={styles.footer}>{props.footer}</div>
     </div>
   );
 };

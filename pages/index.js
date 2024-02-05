@@ -3,21 +3,21 @@ import Navigation from "../components/Navigation";
 const App = () => {
   const nav = [
     { id: "about", text: <div style={{display: "flex", justifyContent: "center"}}><div style={{color: "#85bfee"}}>a</div><div style={{color: "#ffffff"}}>bout</div></div>, href: "/about", img: "/images/logo1.jpg" },
-    { id: "goals", text: "goals", href: "/goals", img: "/images/logo2.jpg" },
+    { id: "goals", text: <div style={{display: "flex", justifyContent: "center"}}><div style={{color: "#85bfee"}}>g</div><div style={{color: "#ffffff"}}>oals</div></div>, href: "/goals", img: "/images/logo2.jpg" },
     {
       id: "personal_writing",
-      text: "personal writing",
+      text: <div style={{display: "flex", justifyContent: "center"}}><div style={{color: "#a073ba"}}>p</div><div style={{color: "#ffffff"}}>ersonal writing</div></div>,
       href: "/personal_writing",
       img: "/images/logo3.jpg",
     },
     {
       id: "disciplinary_writing",
-      text: "disciplinary writing",
+      text: <div style={{display: "flex", justifyContent: "center"}}><div style={{color: "#a073ba"}}>d</div><div style={{color: "#ffffff"}}>isciplinary writing</div></div>,
       href: "/disciplinary_writing",
       img: "/images/logo4.jpg",
     },
-    { id: "speaking", text: "speaking", href: "/speaking" },
-    { id: "reflection", text: "reflection", href: "/reflection" },
+    { id: "speaking", text: <div style={{display: "flex", justifyContent: "center"}}><div style={{color: "#755ab2"}}>s</div><div style={{color: "#ffffff"}}>peaking</div></div>, href: "/speaking", img: "/images/logo5.jpg", },
+    { id: "reflection", text: <div style={{display: "flex", justifyContent: "center"}}><div style={{color: "#755ab2"}}>r</div><div style={{color: "#ffffff"}}>eflection</div></div>, href: "/reflection", img: "/images/logo6.jpg", },
   ];
 
   return (
