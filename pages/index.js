@@ -3,17 +3,18 @@ import Navigation from "../components/Navigation";
 const App = () => {
   const nav = [
     { id: "about", text: "about", href: "/about", img: "/images/logo1.jpg" },
-    { id: "goals", text: "goals", href: "/goals", img: "/images/logo2.jpg"  },
+    { id: "goals", text: "goals", href: "/goals", img: "/images/logo2.jpg" },
     {
       id: "personal_writing",
       text: "personal writing",
       href: "/personal_writing",
-      img: "/images/logo3.jpg"  
+      img: "/images/logo3.jpg",
     },
     {
       id: "disciplinary_writing",
       text: "disciplinary writing",
       href: "/disciplinary_writing",
+      img: "/images/logo4.jpg",
     },
     { id: "speaking", text: "speaking", href: "/speaking" },
     { id: "reflection", text: "reflection", href: "/reflection" },
