@@ -102,11 +102,8 @@ const speaking = () => {
           width: 100%;
           text-align: center;
           font-size: 64px;
-          color: white;
-          font-family: "Evolventa", sans-serif;
-        }
-        header:first-letter {
           color: #a073ba;
+          font-family: "Evolventa", sans-serif;
         }
         .paragraphs > div {
           margin-bottom: 50px;

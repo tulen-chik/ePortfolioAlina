@@ -58,11 +58,8 @@ const about = () => {
           width: 100%;
           text-align: center;
           font-size: 64px;
-          color: white;
-          font-family: "Evolventa", sans-serif;
-        }
-        header:first-letter {
           color: #85bfee;
+          font-family: "Evolventa", sans-serif;
         }
         .paragraphs > div {
           margin-bottom: 50px;

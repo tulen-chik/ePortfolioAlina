@@ -82,11 +82,8 @@ const personal_writing = () => {
           width: 100%;
           text-align: center;
           font-size: 4rem;
-          color: white;
-          font-family: "Evolventa", sans-serif;
-        }
-        header:first-letter {
           color: #755ab2;
+          font-family: "Evolventa", sans-serif;
         }
         ul {
           padding-left: 40px;
