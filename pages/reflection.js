@@ -23,34 +23,21 @@ const reflection = () => {
       </header>
       <div className="paragraphs">
         <Paragraph idClass={"a"}>
-          Learning English has been an incredible journey for me. It hasn't
-          always been easy, but I've had the best companions on this adventure –
-          my supportive friends and engaging teachers. They made sure that
-          learning English was never boring, finding creative ways to make the
-          lessons fun and interesting.
+          Summing up, I think that working on my own electronic portfolio was
+          very interesting and exciting, I can proudly say that each section of
+          the portfolio helped me in some way. Like "goals", which helped me
+          specifically define my goals for future career, language learning and
+          life in general, or practice "disciplinary writing" which taught me
+          writing more or less scientific papers in English.
         </Paragraph>
 
         <Paragraph idClass={"f"}>
-          English has become a part of who I am. It has opened up a whole new
-          world of connections and friendships with fascinating people from
-          different countries. These international friends have been there for
-          me, cheering me on as I navigate the intricacies of the language.
-        </Paragraph>
-
-        <Paragraph idClass={"c"}>
-          Not only has English enriched my personal life, but it has also played
-          a significant role in shaping my career. Thanks to my English skills,
-          I was able to make my dream come true and enroll in EHU University. It
-          has given me the confidence and abilities I needed to pursue my
-          ambitions.
-        </Paragraph>
-
-        <Paragraph idClass={"b"}>
-          Looking back, I cherish the memories of late-night study sessions with
-          my friends. We turned learning into an adventure, tackling challenges
-          together and celebrating every milestone. Overcoming obstacles in
-          mastering the language has given me a sense of pride and
-          accomplishment that continues to fuel my desire for growth.
+          But this portfolio was marked not only by personal growth, but also by
+          progress in learning English, because here I was able to use a good
+          number of words from my vocabulary and learned not just to write a
+          text, but to convey my emotions, my thoughts and dreams through it,
+          which I consider the main thing in learning any language, not only
+          English.
         </Paragraph>
       </div>
       <style jsx>{`

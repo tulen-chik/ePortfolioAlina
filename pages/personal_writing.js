@@ -69,6 +69,13 @@ const personal_writing = () => {
           able to group all the decisions that I had made and looked at them in
           a new way. And I can safely say that it helped me set new goals.
         </Que>
+
+        <Que idClass={"akds"} header={"review"} footer={"Eugene Soldatenko"}>
+          I believe that this writing does not need any evaluation, because of
+          the amount of personal emotions and experiences that she has put into
+          it. I also want to point out that I perfectly understand the feelings
+          that she tried to express.
+        </Que>
       </div>
       <style jsx>{`
         header {

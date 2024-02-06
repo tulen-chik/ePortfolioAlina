@@ -31,10 +31,8 @@ const speaking = () => {
           actor.
         </Paragraph>
 
-        { false ?
+        
         <ImageContainer href={"/images/IMG_20230620_012746_016.jpg"} idClass={"assad"}/>
-        : <div></div>
-        }
 
         
 
@@ -49,10 +47,7 @@ const speaking = () => {
           acting.
         </Paragraph>
 
-        { false ?
         <ImageContainer href={"/images/IMG_20230620_234425_168.jpg"} idClass={"asdd"}/>
-        : <div></div>
-        }
 
         
 
@@ -79,10 +74,9 @@ const speaking = () => {
           to understand where the ability to convey thoughts through the stage
           comes from
         </Paragraph>
-        { false ?
+
         <ImageContainer href={"/images/How-much-of-Communication-is-Non-verbal-Infographic.png"} idClass={"asd"}/>
-        : <div></div>
-        }
+
         <Paragraph idClass={"i"} header={"Self development"}>
           As the last aspect of acting, I consider the possibility of constantly
           developing yourself as a person, this happens by itself, naturally,

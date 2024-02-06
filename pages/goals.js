@@ -2,6 +2,7 @@ import { useLayoutEffect } from "react";
 import gsap from "gsap";
 import Paragraph from "../components/Paragraph";
 import HomeArrow from "../components/HomeArrow";
+import ImageContainer from "../components/ImageContainer";
 
 const goals = () => {
   useLayoutEffect(() => {
@@ -22,58 +23,33 @@ const goals = () => {
         <h1>goals</h1>
       </header>
       <div className="paragraphs">
-        <Paragraph idClass={"a"}>
-          Yearning for something has left me in a state of crisis, as various
-          factors intertwine in my pursuit of admission to EHU and the prospect
-          of moving to Lithuania. These desires have dominated my thoughts for
-          quite some time, but lately, within the span of six months, new
-          aspirations have emerged, and I feel compelled to share them with you.
-          One such aspiration is the dream of traveling. Embarking on journeys
-          has always held a special place in my heart. It is an avenue that
-          broadens my horizons and grants me a unique opportunity to immerse
-          myself in unfamiliar cultures. Exploring a foreign land not only
-          allows me to absorb the intricacies of their language but also offers
-          a chance to reinforce my existing knowledge by conversing with those
-          fluent in the languages I am passionate about. The practice of
-          traveling may not be a constant in my life, but I firmly believe that
-          it holds the potential to bolster my confidence when utilizing my
-          language skills. By venturing into an English-speaking country, I
-          could engage with native speakers, further refining my abilities and
-          gaining invaluable insights into their customs and way of life. In a
-          world where communication is vital, being able to connect with people
-          from different cultures through language is a remarkable gift. It
-          fosters understanding, empathy, and a profound appreciation for the
-          diversity that exists in our global society. Through my travels, I
-          hope to embrace this gift and forge meaningful connections with
-          individuals who share my passion for language and exploration.
+        <Paragraph idClass={"a"} header={"Travel"}>
+          I consider travel to be one of the biggest goals, in my opinion, they
+          help not only to learn English, communicate with local residents, but
+          also for general personal growth.
         </Paragraph>
 
-        <Paragraph idClass={"b"}>
-          As an aspiring actor, my ultimate career goal is to become a versatile
-          performer with the ability to portray a wide range of characters
-          across various genres. To achieve this, I plan to focus on developing
-          my acting skills, improving my physical fitness and appearance, and
-          learning more about the industry. In terms of what I want to achieve,
-          I aim to secure both lead and supporting roles in film, television,
-          and theater productions. I want to work with talented directors and
-          actors, and collaborate on projects that challenge me creatively and
-          intellectually. To improve as an actor, I recognize the importance of
-          practicing regularly and seeking feedback from industry professionals.
-          I plan to attend acting classes, workshops, and seminars to refine my
-          craft and stay up-to-date with industry trends. Additionally, I will
-          work on improving my voice, diction, and physicality to become a more
-          dynamic performer. As for what I want to learn, I am eager to gain a
-          deeper understanding of the technical aspects of filmmaking and
-          theater production. This includes learning about lighting, sound
-          design, and stage management, as well as gaining experience in areas
-          such as screenwriting and directing. I learn best through hands-on
-          experience, so I plan to seek out opportunities to work on student and
-          independent film projects. I also plan to network with industry
-          professionals and attend industry events to gain exposure and build
-          relationships. To achieve my goals, I understand that it will take
-          hard work, dedication, and perseverance. I plan to stay focused and
-          motivated, and to always be open to learning and growing as an actor.
+        <ImageContainer href={"/images/turizm.jpg"} idClass={"assad"} />
+
+        <Paragraph idClass={"aias"} header={"C1 English"}>
+          In my opinion, this is the simplest, but no less important goal,
+          because English is extremely important to me for communicating with
+          people in everyday life, with colleagues at future jobs and other
+          places. And in general, we can never know where else we might need
+          knowledge of advanced English, so it definitely won't be superfluous.
         </Paragraph>
+
+        <ImageContainer href={"/images/levels.jpg"} idClass={"assiuad"} />
+
+        <Paragraph idClass={"aiopas"} header={"Cinema"}>
+          In the world of cinema, where dreams come true, any aspiring actor
+          wants to get into a feature film, I was no exception. The fascination
+          of winning the hearts and captivating the audience with my
+          performances fuels my relentless pursuit. So I consider it my biggest
+          dream at the moment.
+        </Paragraph>
+
+        <ImageContainer href={"/images/kino.jpeg"} idClass={"assiuhuad"} />
       </div>
       <style jsx>{`
         header {
