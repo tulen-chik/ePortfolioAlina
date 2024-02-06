@@ -115,6 +115,9 @@ const disciplinary_writing = () => {
           color: white;
           font-family: "Evolventa", sans-serif;
         }
+        header:first-letter {
+          color: #755ab2;
+        }
         a {
           color: white;
           text-decoration: none;

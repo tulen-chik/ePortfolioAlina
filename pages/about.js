@@ -61,6 +61,9 @@ const about = () => {
           color: white;
           font-family: "Evolventa", sans-serif;
         }
+        header:first-letter {
+          color: #85bfee;
+        }
         .paragraphs > div {
           margin-bottom: 50px;
         }

@@ -48,6 +48,9 @@ const reflection = () => {
           color: white;
           font-family: "Evolventa", sans-serif;
         }
+        header:first-letter {
+          color: #a073ba;
+        }
         .paragraphs > div {
           margin-bottom: 50px;
         }

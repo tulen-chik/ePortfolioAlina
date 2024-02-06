@@ -59,6 +59,9 @@ const goals = () => {
           color: white;
           font-family: "Evolventa", sans-serif;
         }
+        header:first-letter {
+          color: #85bfee;
+        }
         ul {
           padding-left: 40px;
           margin-top: 0.5em;

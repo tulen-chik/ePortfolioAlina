@@ -4,7 +4,7 @@ import gsap from "gsap";
 import ScrollTrigger from "gsap/dist/ScrollTrigger";
 import styles from "../public/css/Navigation.module.css";
 
-export default function ({ text, href, idName }) {
+export default function ({ text, href, idName, color }) {
   gsap.registerPlugin(ScrollTrigger);
 
   useLayoutEffect(() => {
@@ -25,9 +25,22 @@ export default function ({ text, href, idName }) {
     <div className={idName}>
       <div className={styles.nav_div}>
         <Link className={styles.nav_element} href={href}>
-          {text}
+          <div className={color}>{text}</div>
         </Link>
       </div>
+      <style jsx>
+        {`
+        .blue:first-letter {
+          color: #85bfee;
+        }
+        .purple:first-letter {
+          color: #755ab2;
+        }
+        .last:first-letter {
+          color: #a073ba;
+        }
+        `}
+      </style>
     </div>
   );
 }

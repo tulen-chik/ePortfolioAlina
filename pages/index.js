@@ -2,22 +2,24 @@ import Navigation from "../components/Navigation";
 
 const App = () => {
   const nav = [
-    { id: "about", text:"about", href: "/about", img: "/images/logo1.jpg" },
-    { id: "goals", text: "goals", href: "/goals", img: "/images/logo2.jpg" },
+    { id: "about", text:"about", href: "/about", img: "/images/logo1.jpg", color: "blue" },
+    { id: "goals", text: "goals", href: "/goals", img: "/images/logo2.jpg", color: "blue" },
     {
       id: "personal_writing",
       text: "personal writing",
       href: "/personal_writing",
       img: "/images/logo3.jpg",
+      color: "purple"
     },
     {
       id: "disciplinary_writing",
       text: "disciplinary writing",
       href: "/disciplinary_writing",
       img: "/images/logo4.jpg",
+      color: "purple"
     },
-    { id: "speaking", text: "speaking", href: "/speaking", img: "/images/logo5.jpg", },
-    { id: "reflection", text: "reflection", href: "/reflection", img: "/images/logo6.jpg", },
+    { id: "speaking", text: "speaking", href: "/speaking", img: "/images/logo5.jpg", color: "last" },
+    { id: "reflection", text: "reflection", href: "/reflection", img: "/images/logo6.jpg", color: "last" },
   ];
 
   return (
@@ -40,6 +42,7 @@ const App = () => {
                   text={nav_elem.text}
                   href={nav_elem.href}
                   idName={nav_elem.id}
+                  color={nav_elem.color}
                 />
               </div>
             </div>
