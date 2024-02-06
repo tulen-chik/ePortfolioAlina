@@ -3,6 +3,7 @@ import gsap from "gsap";
 import Paragraph from "../components/Paragraph";
 import HomeArrow from "../components/HomeArrow";
 import ImageContainer from "../components/ImageContainer";
+import Audio from "../components/Audio";
 
 const speaking = () => {
   useLayoutEffect(() => {
@@ -20,7 +21,7 @@ const speaking = () => {
       ></link>
 
       <header>
-        <h1><div>s</div>peaking</h1>
+        <h1>speaking</h1>
       </header>
       <div className="paragraphs">
         <Paragraph idClass={"a"}>
@@ -111,6 +112,7 @@ const speaking = () => {
         }
       `}</style>
       <HomeArrow />
+      <Audio />
     </main>
   );
 };
