@@ -58,7 +58,7 @@ const about = () => {
           width: 100%;
           text-align: center;
           font-size: 64px;
-          color: #85bfee;
+          color: shite;
           font-family: "Evolventa", sans-serif;
         }
         .paragraphs > div {

@@ -20,7 +20,7 @@ const speaking = () => {
       ></link>
 
       <header>
-        <h1>speaking</h1>
+        <h1><div>s</div>peaking</h1>
       </header>
       <div className="paragraphs">
         <Paragraph idClass={"a"}>

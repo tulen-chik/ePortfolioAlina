@@ -45,7 +45,7 @@ const reflection = () => {
           width: 100%;
           text-align: center;
           font-size: 64px;
-          color: #85bfee;
+          color: white;
           font-family: "Evolventa", sans-serif;
         }
         .paragraphs > div {
