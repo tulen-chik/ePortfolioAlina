@@ -3,7 +3,9 @@ import gsap from "gsap";
 import Paragraph from "../components/Paragraph";
 import HomeArrow from "../components/HomeArrow";
 import ImageContainer from "../components/ImageContainer";
-import Audio from "../components/Audio";
+import Audio from "../components/audio/Audio";
+import AudioPlayer from "react-h5-audio-player";
+import "react-h5-audio-player/lib/styles.css";
 
 const speaking = () => {
   useLayoutEffect(() => {
@@ -32,10 +34,10 @@ const speaking = () => {
           actor.
         </Paragraph>
 
-        
-        <ImageContainer href={"/images/IMG_20230620_012746_016.jpg"} idClass={"assad"}/>
-
-        
+        <ImageContainer
+          href={"/images/IMG_20230620_012746_016.jpg"}
+          idClass={"assad"}
+        />
 
         <Paragraph idClass={"f"} header={"Openness"}>
           The first and most important trait for any actor is openness. I
@@ -48,9 +50,10 @@ const speaking = () => {
           acting.
         </Paragraph>
 
-        <ImageContainer href={"/images/IMG_20230620_234425_168.jpg"} idClass={"asdd"}/>
-
-        
+        <ImageContainer
+          href={"/images/IMG_20230620_234425_168.jpg"}
+          idClass={"asdd"}
+        />
 
         <Paragraph idClass={"c"} header={"Empathy"}>
           Empathy is very important in the work of an actor, it is logical, if
@@ -76,7 +79,12 @@ const speaking = () => {
           comes from
         </Paragraph>
 
-        <ImageContainer href={"/images/How-much-of-Communication-is-Non-verbal-Infographic.png"} idClass={"asd"}/>
+        <ImageContainer
+          href={
+            "/images/How-much-of-Communication-is-Non-verbal-Infographic.png"
+          }
+          idClass={"asd"}
+        />
 
         <Paragraph idClass={"i"} header={"Self development"}>
           As the last aspect of acting, I consider the possibility of constantly
@@ -111,8 +119,15 @@ const speaking = () => {
           }
         }
       `}</style>
+      <div style={{marginTop: "100px"}}></div>
       <HomeArrow />
-      <Audio />
+      <AudioPlayer
+        src="/Alinochka.mp3"
+        onPlay={(e) => console.log("onPlay")}
+        style={{position: "fixed", bottom: "0px"}}
+        defaultDuration={"03:04"}
+        showJumpControls={false}
+      />
     </main>
   );
 };

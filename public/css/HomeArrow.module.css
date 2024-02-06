@@ -13,7 +13,7 @@
 
 @media (max-width: 1000px) {
     .home_div {
-        top: 90%;
+        top: 80%;
     }
     .home_div > img {
         width: 40px;

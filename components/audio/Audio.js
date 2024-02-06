@@ -1,8 +1,8 @@
-import styles from "../public/css/Audio.module.css"
+import React from 'react';
 
 const Audio = () => {
     return (
-        <div className={styles.main}>
+        <div>
             
         </div>
     );
